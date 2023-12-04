@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-footer {
+    background-color: #202020;
+}
+
+.scroll-to-top .bi {
+    transition-delay: 0.8s;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.social-links a {
+    color: white;
+}
+
+.resource-title {
+    color: #ccc;
+}
+
+.nav-link-resources {
+    color: white;
+    transition: all 0.2s linear;
+}
+
+.nav-item-resources {
+
+    list-style: none;
+}
+
+.nav-link-resources:hover {
+    color: #0078f2;
+}
+
+.copyright-paragraph {
+    text-align: justify;
+}
+#mySVG path {
+    transition:all 0.2s linear;
+}
+
+#mySVG:hover path {
+    fill: #fff;
+}
+.resource-title{
+    color: #656565;
+}
