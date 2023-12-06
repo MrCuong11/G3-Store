@@ -1,0 +1,94 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-project {
+    padding: 0 100px;
+}
+
+@media (max-width: 575.98px) {
+    .container-project {
+        padding: 0 24px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .img-container {
+        line-height: 132px;
+    }
+}
+
+body {
+    background: rgb(18 18 18);
+}
+
+
+
+.img-thumbnail-css {
+    background-color: none;
+    padding: 0.25rem;
+    border: none;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* .text-header {
+    display: -webkit-box;
+    line-clamp: 2;
+    overflow: hidden;
+    word-break: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+} */
+.text-name-game {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.name-game-container .text-name-game:hover {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    color: rgb(245, 245, 245);
+}
+
+
+
+.icon-popovers {
+    display: block;
+    line-height: 0;
+    width: 20px;
+    height: 20px;
+    color: inherit;
+}
+
+.end-cart {
+    margin-top: 10px;
+}
+
+.action-cart {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.2s ease;
+}
+
+.action-cart:hover,
+.action-cart:focus {
+    color: #fff;
+}
+
+.cart-content {
+    background-color: rgb(32 32 32);
+}
+
+/* checkout */
+.checkout-container {
+    background-color: rgb(32 32 32);
+    min-width: 340px;
+}
