@@ -145,10 +145,10 @@
           <!-- Discover + browse -->
           <ul class="navbar-nav mt-2 mt-md-0 me-auto">
             <li class="nav-item">
-              <a class="nav-link navbar-link" href="#" data-abc="true">Discover</a>
+              <a class="nav-link active navbar-link navbar-click-discover" href="#" data-abc="true">Discover</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navbar-link" href="#" data-abc="true">Browse</a>
+              <a class="nav-link navbar-link navbar-click-browse" href="#" data-abc="true">Browse</a>
             </li>
           </ul>
 
@@ -982,6 +982,31 @@
         navbar.classList.remove("sticky");
       }
     } 
+  </script>
+
+  <script>
+    // var browse = document.querySelector('.navbar-click-browse');  
+    // var discover = document.querySelector('.navbar-click-discover');
+
+    // browse.addEventListener("click",()=>{
+    //   browse.classList.add("active")
+    //   discover.classList.remove("active")
+    // })
+
+    // discover.addEventListener("click",()=>{
+    //   browse.classList.remove("active")
+    //   discover.classList.add("active")
+    // })
+
+    document.querySelectorAll(".navbar-click-browse, .navbar-click-discover").forEach((item) => {
+      item.addEventListener("click", () => {
+        document.querySelectorAll(".navbar-click-browse, .navbar-click-discover").forEach((el) => {
+          el.classList.remove("active");
+        });
+        item.classList.add("active");
+      });
+    });
+
   </script>
 </body>
 
