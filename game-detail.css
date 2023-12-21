@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+
+.card {
+    padding: 14px;
+    border: none;
+}
+
+.demo {
+    width: 100%
+}
+
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom: 0
+}
+
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor: pointer
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 100%
+}
+
+
+
+.lSSlideOuter .lSPager.lSGallery img {
+    width: 100%;
+    height: auto;
+}
+
+.lSSlideOuter .lSPager.lSGallery li.active,
+.lSSlideOuter .lSPager.lSGallery li:hover {
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+li.lslide img{
+    border-radius: 10px;
+}
+
+.rating{
+    margin: auto ;
+}
+.card-img-thumnail{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card-container{
+    background: #202020;
+}
+.card-summary{
+    margin-top: 200px;
+    min-width: 290px;
+}
+@media (max-width:992px ){
+    .card-summary{
+        margin-top:0;
+    }
+}
