@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="browse-page.css">
+</head>
+
+<body>
+    <!-- section categories -->
+    <section id="categories">
+        <div class="container-content container ">
+            <h3 class="main-title">Popular Categories</h3>
+            <div class="main-content">
+                <div class="category">
+                    <h4 class="title">Action</h4>
+                </div>
+                <div class="category">
+                    <h4 class="title">RPG</h4>
+                </div>
+                <div class="category">
+                    <h4 class="title">Shooter</h4>
+                </div>
+                <div class="category">
+                    <h4 class="title">Strategy</h4>
+                </div>
+                <div class="category">
+                    <h4 class="title">Puzzle</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="container ">
+        <div class="row">
+            <div class="col-3 mt-xxl-3 mt-0">
+                <!-- ======= Sidebar ======= -->
+                <aside id="listItem" aria-labelledby="listItemLabel" tabindex="-1"
+                    class="sidebar  shadow p-3 offcanvas offcanvas-start">
+                    <header class="lead fw-bold mb-3">Filter</header>
+                    <ul class="sidebar-nav list-unstyled " id="sidebar-nav">
+                        <!-- item1  -->
+                        <li class="nav-item">
+                            <a class="nav-link collapsed" data-bs-target="#event-nav" data-bs-toggle="collapse"
+                                href="#">
+                                <span>EVENT</span>
+                                <i class="bi bi-chevron-down ms-auto"></i>
+                            </a>
+                            <ul id="event-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>THQ Publisher Sale</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Focus Publisher Sale</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li><!-- End  -->
+                        <hr class="m-0 ">
+
+                        <!-- Item2-->
+                        <li class="nav-item">
+                            <a class="nav-link collapsed" data-bs-target="#genres-nav" data-bs-toggle="collapse"
+                                href="#">
+                                <span>GENRE</span><i class="bi bi-chevron-down ms-auto"></i>
+                            </a>
+                            <ul id="genres-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Action</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Adventure</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Indie</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>RPG</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Strategy</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Open World</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Shooter</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Puzzle</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Sport</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Comedy</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li><!-- End -->
+                        <hr class="m-0 ">
+
+
+                        <!-- item3 -->
+                        <li class="nav-item">
+                            <a class="nav-link collapsed" data-bs-target="#feature-nav" data-bs-toggle="collapse"
+                                href="#">
+                                <span>FEATURES</span><i class="bi bi-chevron-down ms-auto"></i>
+                            </a>
+                            <ul id="feature-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Single Player</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Controller Support</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Co-op</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Competitive</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>VR</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Multiplayer</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li><!-- End  -->
+                        <hr class="m-0 ">
+
+
+                        <!-- Item4 -->
+                        <li class="nav-item">
+                            <a class="nav-link collapsed" data-bs-target="#type-nav" data-bs-toggle="collapse" href="#">
+                                <span>TYPES</span><i class="bi bi-chevron-down ms-auto"></i>
+                            </a>
+                            <ul id="type-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Game</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Game Bundle</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Editor</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Game Add-on</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Game Demo</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Apps</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li><!-- End -->
+                        <hr class="m-0 ">
+
+
+                        <!-- item5-->
+                        <li class="nav-item">
+                            <a class="nav-link collapsed" data-bs-target="#platform-nav" data-bs-toggle="collapse"
+                                href="#">
+                                <span>PLATFORM</span><i class="bi bi-chevron-down ms-auto"></i>
+                            </a>
+                            <ul id="platform-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Windows</span>
+                                    </a>
+                                </li>
+                                <li class="filter-click">
+                                    <a href="#">
+                                        <span>Mac OS</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li><!-- End -->
+                    </ul>
+
+                </aside><!-- End Sidebar-->
+            </div>
+            <div class="col-xxl-9 mt-xxl-3">
+
+                <main id="main" class="main">
+                    <div class="btn-list " data-bs-toggle="offcanvas" href="#listItem" role="button"
+                        aria-controls="listItem">
+                        <i class="bi bi-list fs-2 text-white"></i>
+                    </div>
+
+                    <section class="section">
+                        <div class="row select-search-for align-items-center ">
+                            <div class=" col-lg-2 col-2 ">
+                                <select class="form-select select-bar bg-black " aria-label="">
+                                    <option selected>Relavance</option>
+                                    <option value="1">New Release</option>
+                                    <option value="2">Release Date</option>
+                                    <option value="3">Alphabetical</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3 ">
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-xl-3 col-md-4 col-sm-6 col-12 pe-0 mb-5">
+                                <div class="card card-container">
+                                    <img loading="lazy" src="https://cdn1.epicgames.com/offer/52613245bcd34a8eb99078f423620a4d/EGS_ParanoiaHappinessisMandatory_Cyanide_S2_1200x1600-c0407ffc32fc5d931d33841dcb73c615?h=480&quality=medium&resize=1&w=360"
+                                        class="card-img skeleton" alt="...">
+                                    <div class="card-body px-0 bg-black ">
+                                        <div class="subtitle text-white-50 mb-2">BASE GAME</div>
+                                        <h5 class="card-title text-white">Paranoia: Happiness is Mandatory</h5>
+                                        <div class="price text-white h6 my-2">456.000đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                </main><!-- End #main -->
+            </div>
+        </div>
+    </main>
+    <!-- Pagination -->
+    <div class="container d-flex ">
+        <nav style="margin: auto;" aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                <li class="page-item"><a class="page-link" href="#">100</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script>
+        var sideBar = document.querySelector('.sidebar')
+        var btnList = document.querySelector('.btn-list');
+        function handleBreakpoint() {
+            const mediaQuery = window.matchMedia('(max-width: 1399px)');
+            // console.log(mediaQuery.matches);
+            if (mediaQuery.matches) {
+                sideBar.classList.add('offcanvas-start', 'offcanvas');
+            } else {
+                sideBar.classList.remove('offcanvas-start', 'offcanvas');
+            }
+        }
+
+        handleBreakpoint();
+
+        window.addEventListener('resize', handleBreakpoint);
+
+    </script>
+    <script>
+        let filterItems = document.querySelectorAll('.filter-click');
+
+        filterItems.forEach(function (item) {
+            item.addEventListener('click', function () {
+                this.classList.toggle('actives');
+            });
+        });
+
+    </script>
+</body>
+
+</html>
